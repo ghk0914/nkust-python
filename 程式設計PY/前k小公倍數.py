@@ -22,7 +22,7 @@ while(gain%1==0 and a%1==0 and b%1==0 and c%1==0 and gain!=0 and a!=0 and b!=0 a
     hcf1=hcf_maker(a,b)
     lcm1=lcm_maker(a,b,hcf1)
     hcf2=hcf_maker(lcm1,c)
-    print(hcf2)
+    ##print(hcf2)
     lcm2=lcm_maker(lcm1,c,hcf2)
     ##print(int(lcm2))
     if(gain%1!=0):
